@@ -24,9 +24,9 @@ body {
   transition: 2s;
   transform: rotateX(360deg);
 }
-.ig{
-  margin-left:36rem;
-  margin-top:3rem;
+.ig {
+  margin-left: 36rem;
+  margin-top: 3rem;
 }
 /* nav underline */
 .nav-item {
@@ -40,6 +40,11 @@ body {
   display: block;
   border-bottom: 3px solid white;
   margin-bottom: -3px;
+}
+nav {
+  border-radius: 50px;
+  box-shadow: 2px 2px 8px white;
+  background-color: rgba(0, 0, 0, 0.397);
 }
 /* Underline end */
 
@@ -130,24 +135,31 @@ h1 {
 }
 
 /* Android breakpoint */
+
+@media screen and (max-width: 768px) {
+}
+/* Android */
 @media screen and (max-width: 576px) {
   .jumbotron {
-    padding-top: 1.5rem;
+    margin-top: 0rem;
   }
   .img {
-    margin-left: 7.5rem;
-    width:350px;
-    height:350px;
+    margin-left: 6rem;
+    width: 350px;
+    height: 350px;
   }
   .Text {
-    margin-left: 1.6rem;
-    margin-right: 0px;
+    margin-left: 0rem;
+    margin-right: 2px;
   }
-  .ig{
-  margin-left:23rem;
-  margin-top:2rem;
-  width:100px;
-  height:100px;
-}
+  .ig {
+    margin-left: 20rem;
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
+  }
+  nav {
+    border-radius: 10px;
+  }
 }
 /* end */

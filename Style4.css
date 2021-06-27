@@ -31,6 +31,10 @@ body {
   border-bottom: 3px solid white;
   margin-bottom: -3px;
 }
+nav{
+  border-radius: 50px;
+    box-shadow: 2px 2px 8px  white; background-color: rgba(0, 0, 0, 0.397);
+}
 /* Underline end */
 /* H1 animation */
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
@@ -92,7 +96,7 @@ h1 {
 }
 
 /* Android breakpoint */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 618px) {
   .jumbotron {
     padding-top: 8rem;
   }
@@ -105,5 +109,9 @@ h1 {
     margin-left: 6em;
     margin-top: 50px;
   }
+  nav{
+   border-radius:10px;
+   text-align:center;
+ }
 }
 /* end */
