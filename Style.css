@@ -136,7 +136,28 @@ h1 {
 
 /* Android breakpoint */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-height: 760px) {
+  .jumbotron {
+    margin-top: 0rem;
+  }
+  .img {
+    margin-left: 6rem;
+    width: 350px;
+    height: 350px;
+  }
+  .Text {
+    margin-left: 6rem;
+    margin-right: 2px;
+  }
+  .ig {
+    margin-left: 20rem;
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
+  }
+  nav {
+    border-radius: 10px;
+  }
 }
 /* Android */
 @media screen and (max-width: 576px) {
