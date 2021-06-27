@@ -148,6 +148,7 @@ h1 {
 @media screen and (max-width: 576px) {
   nav {
     border-radius: 10px;
+    text-align:center;
   }
   .jumbotron {
     padding-top: 8rem;
