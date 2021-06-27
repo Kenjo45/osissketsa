@@ -12,6 +12,9 @@ body {
   padding: 0 50px 0 0;
   margin-left: 10rem;
 }
+.imgnav {
+  width: 250px;
+}
 .img:hover {
   transition-delay: 1s;
   transition: 5s;
@@ -136,46 +139,24 @@ h1 {
 
 /* Android breakpoint */
 
-@media screen and (max-height: 760px) {
-  .jumbotron {
-    margin-top: 0rem;
-  }
-  .img {
-    margin-left: 6rem;
-    width: 350px;
-    height: 350px;
-  }
-  .Text {
-    margin-left: 6rem;
-    margin-right: 2px;
-  }
-  .ig {
-    margin-left: 20rem;
-    margin-top: 2rem;
-    width: 100px;
-    height: 100px;
-  }
-  nav {
-    border-radius: 10px;
-  }
-}
 /* Android */
 @media screen and (max-width: 576px) {
   .jumbotron {
     margin-top: 0rem;
   }
   .img {
-    margin-left: 6rem;
-    width: 350px;
-    height: 350px;
+    margin-left: 3.5rem;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
   }
   .Text {
-    margin-left: 1rem;
+    margin-left: 0rem;
     margin-right: 2px;
   }
   .ig {
-    margin-left: 20rem;
-    margin-top: 2rem;
+    margin-left: 16rem;
+    margin-top: 1rem;
     width: 100px;
     height: 100px;
   }
