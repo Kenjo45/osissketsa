@@ -140,7 +140,7 @@ h1 {
 /* Android breakpoint */
 
 /* Android */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 640px) {
   .jumbotron {
     margin-top: 0rem;
   }
