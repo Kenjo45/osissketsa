@@ -138,8 +138,6 @@ h1 {
 }
 
 /* Android breakpoint */
-
-/* Android */
 @media screen and (max-width: 360px) {
   .jumbotron {
     margin-top: 0rem;
@@ -157,6 +155,31 @@ h1 {
   .ig {
     margin-left: 16rem;
     margin-top: 1rem;
+    width: 100px;
+    height: 100px;
+  }
+  nav {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron {
+    margin-top: 0rem;
+  }
+  .img {
+    margin-left: 6rem;
+    width: 350px;
+    height: 350px;
+    margin-top: 3rem;
+  }
+  .Text {
+    margin-left: 1rem;
+    margin-right: 2px;
+  }
+  .ig {
+    margin-left: 20rem;
+    margin-top: 2rem;
     width: 100px;
     height: 100px;
   }
