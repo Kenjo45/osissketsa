@@ -186,6 +186,7 @@ h1 {
   }
   nav {
     border-radius: 10px;
+    text-align:center;
   }
 }
 /* end */
