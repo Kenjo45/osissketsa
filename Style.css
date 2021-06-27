@@ -144,12 +144,12 @@ h1 {
     margin-top: 0rem;
   }
   .img {
-    text-align: center;
+    margin-left: 6rem;
     width: 350px;
     height: 350px;
   }
   .Text {
-    text-align: center;
+    margin-left: 0rem;
     margin-right: 2px;
   }
   .ig {
