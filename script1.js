@@ -1,1 +1,1 @@
-alert("Perhatian! Website Ini Adalah Official Buatan Anak Osis Jadi Mohon Maaf Jika Masih Jelek Dan Lalu Ini Website Masih Prototype! Jadi Mohon Maaf! Jika Masih Jelek! hehe")
+alert("This website still work in project")
