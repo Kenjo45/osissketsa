@@ -168,13 +168,12 @@ h1 {
   .jumbotron {
     margin-top: -5rem;
   }
-  .img {
+   .img {
     height: 200px;
     margin-top: 8rem;
-    margin-left: 8.5rem;
+    margin-left:9rem;
   }
   .Text {
-    margin-left: 8rem;
     margin-right: -8rem;
   }
   h1{
@@ -182,8 +181,8 @@ h1 {
   }
   }
   a .ig {
-    margin-left: 25rem;
-    margin-top: -2rem;
+    margin-left: 24rem;
+    margin-top: 1rem;
     width: 100px;
     height: 100px;
   }
