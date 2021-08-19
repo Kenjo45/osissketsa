@@ -25,9 +25,9 @@ body {
   transition: 2s;
   transform: rotateX(360deg);
 }
-.ig {
-  margin-left: 50rem;
-  margin-top: 3rem;
+a .ig {
+  margin-left: 69rem;
+  margin-top: 0rem;
 }
 /* nav underline */
 .nav-item {
