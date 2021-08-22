@@ -1,5 +1,6 @@
 body {
-  background-color: #050d25;
+  background: rgb(2, 0, 38);
+  background: linear-gradient(90deg, rgba(2, 0, 38, 1) 0%, rgba(2, 0, 38, 1) 36%, rgba(0, 10, 62, 1) 60%, rgba(7, 46, 107, 1) 92%);
   overflow-x: hidden;
 }
 .jumbotron {
@@ -41,7 +42,7 @@ body {
 nav {
   border-radius: 50px;
   box-shadow: 2px 2px 8px white;
-  background-color: rgba(0, 0, 0, 0.397);
+  background-color: rgba(0, 0, 0, 0.164);
 }
 /* Underline end */
 /* H1 animation */
@@ -126,9 +127,6 @@ ul {
   h1 {
     padding-top: 8.5rem;
   }
-  .navbar-nav {
-    background-color: rgba(0, 0, 0, 0.822);
-  }
   .SEKBID {
     display: inherit;
     padding-top: 3rem;
@@ -150,8 +148,7 @@ ul {
     padding-top: 3rem;
   }
   nav {
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 2px;
   }
   .imgnav {
     width: 250px;

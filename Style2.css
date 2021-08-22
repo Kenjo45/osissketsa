@@ -1,5 +1,6 @@
 body {
-  background-color: #050d25;
+  background: rgb(2,0,38);
+  background: linear-gradient(90deg, rgba(2,0,38,1) 0%, rgba(2,0,38,1) 36%, rgba(0,10,62,1) 60%, rgba(7,46,107,1) 92%);
 }
 .jumbotron {
   padding-top: 5rem;
@@ -53,7 +54,7 @@ hr {
 nav {
   border-radius: 50px;
   box-shadow: 2px 2px 8px white;
-  background-color: rgba(0, 0, 0, 0.397);
+  background-color: rgba(0, 0, 0, 0.164);
 }
 /* Underline end */
 /* H1 animation */
@@ -116,10 +117,9 @@ h1 {
 }
 
 /* Android breakpoint */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 576px) {
   nav {
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 2px;
   }
   .jumbotron {
     padding-top: 8rem;
@@ -144,30 +144,5 @@ h1 {
     width: 250px;
   }
 }
-}
-@media screen and (max-width: 576px) {
-  nav {
-    border-radius: 10px;
-    text-align:center;
-  }
-  .jumbotron {
-    padding-top: 8rem;
-  }
-
-  .img10 {
-    float: left;
-    margin-left: 2.5rem;
-    width: 180px;
-    height: 180px;
-  }
-  .img12 {
-    margin-bottom: 8rem;
-  }
-  h4,
-  .text {
-    color: white;
-    margin-left: 16rem;
-    font-size: 22px;
-  }
 }
 /* end */
