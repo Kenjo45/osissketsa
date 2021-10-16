@@ -1,0 +1,178 @@
+.jumbotron {
+  padding-top: 3.5rem;
+  background-color: #00098a;
+}
+/* keyframe */
+.FadeIn {
+  animation: FadeIn 3s;
+}
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 5;
+  }
+}
+.scroll2 {
+  animation: scroll2 3s;
+}
+@keyframes scroll2 {
+  from {
+    transform: scale(0%);
+    transition: 2s;
+  }
+  to {
+    transform: scale(100%);
+    transition: 2s;
+  }
+}
+.imghome {
+  animation: imghome 3s;
+}
+@keyframes imghome {
+  from {
+    transform: rotateY(0deg);
+    transition: 5s;
+  }
+  to {
+    transform: rotateY(360deg);
+    transition: 5s;
+  }
+}
+
+/* keyframe/animation */
+#Organisasi {
+  background-color: #f3f4f5;
+}
+#Progja {
+  background-color: #00098a;
+}
+#Galeri {
+  background-color: #f3f4f5;
+}
+footer {
+  background-color: #00098a;
+  color: white;
+}
+section {
+  padding-top: 5rem;
+}
+svg {
+  padding-top: 8rem;
+}
+
+.Text {
+  margin-top: 2rem;
+}
+.img12 {
+  margin-top: 3rem;
+}
+.imghome:hover {
+  transition-delay: 1s;
+  transition: 5s;
+  transform: rotateY(360deg);
+}
+.img10:hover {
+  transition-delay: 1s;
+  transition: 8s;
+  transform: scale(1%);
+}
+.progjarow {
+  margin-bottom: 3rem;
+}
+.SEKBID {
+  margin-top: 3rem;
+}
+.titleprogja {
+  margin-top: 1rem;
+}
+.img2 {
+  margin-top: 3rem;
+}
+.img2:hover {
+  transition-delay: 1s;
+  transition: 5s;
+  transform: scale(250%);
+}
+.imgend {
+  margin-bottom: 5rem;
+}
+.H1G {
+  margin-top: 3rem;
+}
+.IG {
+  margin-top: 5rem;
+}
+/* Nav */
+.nav-item:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid white;
+}
+nav {
+  border-radius: 10px;
+}
+/* nav end */
+/* Darkmode */
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+/* black 1*/
+[data-theme="dark"] .Organisasi {
+  background-color: #222 !important;
+}
+[data-theme="dark"] .progja {
+  background-color: rgb(0, 4, 53) !important;
+}
+[data-theme="dark"] .galeri {
+  background-color: #222 !important;
+}
+[data-theme="dark"] .galeri2 {
+  background-color: #222 !important;
+}
+[data-theme="dark"] .kaki {
+  background-color: rgb(0, 4, 53) !important;
+}
+
+/* black 0 */
+[data-theme="dark"] .jumbotron {
+  background-color: rgb(0, 4, 53) !important;
+}
+/* svg */
+[data-theme="dark"] .svg {
+  fill: #222 !important;
+}
+[data-theme="dark"] .svg2 {
+  fill: rgb(0, 4, 53) !important;
+}
+/* button dark mode */
+[data-theme="dark"] .custom-control-label {
+  color: #6441a5 !important;
+  text-shadow: 0 0 20px #5900ff;
+}
+/* navbar */
+[data-theme="dark"] .navbar {
+  background-color: #252525 !important;
+}
+/* entah */
+[data-theme="dark"] a {
+  color: rgb(11, 99, 240) !important;
+}
+[data-theme="dark"] .eye {
+  text-shadow: 0 0 20px white !important;
+}
+[data-theme="dark"] p,
+h1,
+h4,
+div {
+  text-shadow: 0 0 100px white;
+}
+/* dark mode end */
+/* Breakpoints */
+@media (min-width: 992px) {
+  .form-switch {
+    margin-left: 1rem;
+  }
+}
